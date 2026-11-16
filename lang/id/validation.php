@@ -1,0 +1,56 @@
+<?php
+
+return [
+    'accepted' => ':Attribute harus disetujui.',
+    'array' => ':Attribute harus berupa daftar.',
+    'between' => [
+        'numeric' => ':Attribute harus antara :min dan :max.',
+        'string' => ':Attribute harus antara :min dan :max karakter.',
+        'file' => ':Attribute harus antara :min dan :max KB.',
+        'array' => ':Attribute harus berisi :min sampai :max item.',
+    ],
+    'boolean' => ':Attribute harus bernilai ya atau tidak.',
+    'confirmed' => 'Konfirmasi :attribute tidak sama.',
+    'email' => ':Attribute harus berupa alamat email yang valid.',
+    'exists' => ':Attribute yang dipilih tidak ditemukan.',
+    'image' => ':Attribute harus berupa gambar.',
+    'in' => ':Attribute yang dipilih tidak valid.',
+    'integer' => ':Attribute harus berupa angka bulat.',
+    'max' => [
+        'numeric' => ':Attribute maksimal :max.',
+        'string' => ':Attribute maksimal :max karakter.',
+        'file' => ':Attribute maksimal :max KB.',
+        'array' => ':Attribute maksimal :max item.',
+    ],
+    'mimes' => ':Attribute harus berformat: :values.',
+    'min' => [
+        'numeric' => ':Attribute minimal :min.',
+        'string' => ':Attribute minimal :min karakter.',
+        'file' => ':Attribute minimal :min KB.',
+        'array' => ':Attribute minimal :min item.',
+    ],
+    'numeric' => ':Attribute harus berupa angka.',
+    'present' => ':Attribute harus ada.',
+    'regex' => 'Format :attribute tidak valid.',
+    'required' => ':Attribute wajib diisi.',
+    'required_without' => ':Attribute wajib diisi.',
+    'string' => ':Attribute harus berupa teks.',
+    'unique' => ':Attribute sudah dipakai.',
+    'uploaded' => ':Attribute gagal diunggah.',
+    'password' => [
+        'letters' => ':Attribute harus mengandung huruf.',
+        'mixed' => ':Attribute harus mengandung huruf besar dan kecil.',
+        'numbers' => ':Attribute harus mengandung angka.',
+        'symbols' => ':Attribute harus mengandung simbol.',
+        'uncompromised' => ':Attribute ini pernah bocor di internet. Pakai yang lain.',
+    ],
+
+    'attributes' => [
+        'name' => 'nama',
+        'email' => 'email',
+        'password' => 'kata sandi',
+        'phone' => 'nomor telepon',
+        'address' => 'alamat',
+        'qty' => 'jumlah',
+    ],
+];
